@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>rafa3</title>
+</head>
+<body>
+  
+  <nav class="container">
+  <ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Projet</a>  </li>
+    <li><a href="#slider">About</a> </li>
+  </ul>
+</nav> 
+    
+    <div id="dd">
+    <div class="info"> 
+      <img  id="img" src="ii.jpeg " width="90px"/> 
+    <h1> Hi Youth </h1>
+  
+    <p>Hello, I am a 20-year-old Tunisian young man, my name is Rafaa Selmi. <br>
+   _I am still studying and learning programming languages, which is Html , CSS and js. <br>
+    _I want to reach a good position in society and prove myself and this project is one of my first achievements ❤️</p>
+    
+        <div class="media-icons">
+          <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+          <br><br>
+        </div>
+      </div>
+</div>
+   <div class="slider-holder" id="slider">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="1.jpeg" class="slider-image" />
+            <img src="2.jpeg" class="slider-image" />
+            <img src="3.jpeg" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+   </div>
+</body>
+</html>
